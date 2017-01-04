@@ -13,6 +13,7 @@
 	float: left;
 	font-size: 30px;
 	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
 	color: white;
 	padding: 30px 0px;
 }
@@ -22,6 +23,7 @@
 	padding: 30px 10px;
 	font-size: 13px;
 	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
 	color: white;
 	position: relative;
 	top: 10px;
@@ -42,6 +44,7 @@ h1{
 	font-size: 60px;
 	color:white;
 	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
 	padding: 30px;
 }
 
@@ -50,9 +53,10 @@ h1{
 	max-height: 100%;
 }
 
-.span1{
+.spanestrella{
 	color: white;
 	font-size: 30px;
+	padding-left: 7px;
 }
 
 article{
@@ -62,12 +66,20 @@ article{
 
 .span1:after, .span1:before{
 	content: "";
-	height: 5px;
+	height: 3px;
 	width: 100px;
 	display: inline-block;
 	background-color: white;
 	position: relative;
-	top: 0px;
+	bottom: 7px;
+}
+
+.pheader{
+	font-size: 20px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600; 
+	padding: 20px 0px;
 }
 
 
