@@ -1,0 +1,119 @@
+
+/*HEADER*/
+
+.divheader1{
+	background-color: #2C3E50;
+	overflow: auto;
+	padding: 0px 200px;
+
+}
+
+
+.li1{
+	float: left;
+	font-size: 30px;
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	padding: 30px 0px;
+}
+
+.li2{
+	float: right;
+	padding: 30px 10px;
+	font-size: 13px;
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	position: relative;
+	top: 10px;
+
+}
+
+
+.divheader2{
+	background-color: #18BC9C;
+
+}
+
+.artheader{
+	padding: 100px 0px;
+}
+
+h1{
+	font-size: 60px;
+	color:white;
+	font-family: "Montserrat", sans-serif;
+	padding: 30px;
+}
+
+.img-responsive{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.span1{
+	color: white;
+	font-size: 30px;
+}
+
+article{
+	padding: 0px 200px;
+	text-align: center;
+}
+
+.span1:after, .span1:before{
+	content: "";
+	height: 5px;
+	width: 100px;
+	display: inline-block;
+	background-color: white;
+	position: relative;
+	top: 0px;
+}
+
+
+
+/*SECTION 1*/
+
+.section1{
+	background-color: white;
+}
+
+.span2{
+	color: #2C3E50;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+/*SECTION 2*/
+
+.section2{
+	background-color: #18BC9C;
+}
+
+.download{
+	border: 10px solid black;
+    font-size: 80px;
+    border-radius: 10px;
+}
+
+/*SECTION 3*/
+
+.section3{
+	background-color: white;
+}
+
+/*FOOTER*/
+
+.footer1{
+	padding: 0px 200px;
+	background-color: #2C3E50;
+}
+
+.footer2{
+	padding: 0px 200px;
+	background-color: #233140;
+}
